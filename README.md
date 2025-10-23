@@ -26,9 +26,8 @@ This project demonstrates a *vertically sliced* backend and frontend structure, 
 | **Backend** | Spring Boot 3.5.7 (Java 17), Spring Security, Data JPA |
 | **Database** | PostgreSQL 15 |
 | **Auth** | JWT (io.jsonwebtoken), bcrypt |
-| **Frontend** | React 18 + TypeScript + Tailwind + i18next |
-| **Testing** | JUnit 5, Cucumber, Mockito, React Testing Library |
-| **Infra** | Docker Compose, Flyway (migrations) |
+| **Frontend** | React 18 + TypeScript|
+| **Testing** | JUnit 5, Cucumber, Mockito |
 
 ---
 
@@ -56,17 +55,9 @@ This project demonstrates a *vertically sliced* backend and frontend structure, 
 - Optimistic UI updates.
 - Basic accessibility and error state review.
 
----
-
-## ⚙️ Setup & Installation
-
 ### 1️⃣ Prerequisites
 - Java 17+
 - Maven 3.9+
 - Docker & Docker Compose
 - Node.js 20+ (for frontend)
 
-### 2️⃣ Clone and build
-```bash
-git clone https://github.com/<your-username>/talavera-subscriptions.git
-cd talavera-subscriptions
